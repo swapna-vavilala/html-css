@@ -7,6 +7,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LeftPanelComponent } from './components/left-panel/left-panel.component';
 import { RightPanelComponent } from './components/right-panel/right-panel.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CardComponent } from './components/card/card.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { FooterComponent } from './components/footer/footer.component';
     AppComponent,
     LeftPanelComponent,
     RightPanelComponent,
-    FooterComponent
+    FooterComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
