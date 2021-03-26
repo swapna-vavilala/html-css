@@ -8,6 +8,7 @@ import { LeftPanelComponent } from './components/left-panel/left-panel.component
 import { RightPanelComponent } from './components/right-panel/right-panel.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CardComponent } from './components/card/card.component';
+import { RightPanelNewComponent } from './right-panel-new/right-panel-new.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { CardComponent } from './components/card/card.component';
     LeftPanelComponent,
     RightPanelComponent,
     FooterComponent,
-    CardComponent
+    CardComponent,
+    RightPanelNewComponent
   ],
   imports: [
     BrowserModule,
